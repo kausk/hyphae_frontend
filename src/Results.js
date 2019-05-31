@@ -3,9 +3,17 @@ import React from 'react';
 function Results(props) {
 
   return (
-    <h1>
-      {props.text}
-    </h1>
+    <div>
+      <h1>
+        {props.title}
+      </h1>
+
+      <h2>
+        Area: {props.area}
+      </h2>
+
+      <img src={props.src}  />
+    </div>
   );
 }
 

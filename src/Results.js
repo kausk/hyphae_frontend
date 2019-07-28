@@ -12,7 +12,7 @@ function Results(props) {
         Area: {props.area}
       </h2>
 
-      <img width="160" height="160" ng-src={props.src}  />
+      <img height="200" width="400" src={props.src}  />
     </div>
   );
 }
